@@ -47,6 +47,8 @@ ul, li {
   letter-spacing: 0.02em;
 }
 .link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   color: var(--title-text-color);
   text-decoration: none;
 }
@@ -54,8 +56,10 @@ ul, li {
 .link:focus {
   color: var(--accent-color);
 }
-.contacts {
+.contacts a{
   color: var(--primary-text-color);
+  list-style: none;
+  text-decoration: none;
 }
 .contacts:hover,
 .contacts:focus {
