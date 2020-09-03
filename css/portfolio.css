@@ -55,6 +55,7 @@
   }
   .menu:hover {
     background-color: var(--accent-color);
+    color: var(--primary-white-color);
   }
   .contacts a{
     color: var(--primary-text-color);
